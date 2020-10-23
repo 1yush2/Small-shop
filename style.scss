@@ -13,4 +13,17 @@ body {
     background-color: $light-color;
     font-family: $font-lan;
     line-height: 1.6;
-}  
+} 
+
+.top{
+  display: flex;
+  
+  .mid-nav{
+    display: flex;
+  }
+  
+  .bot-nav{
+    display: flex;
+  }
+  
+}
