@@ -17,13 +17,19 @@ body {
 
 .top{
   display: flex;
+  flex-direction: column;
   
   .mid-nav{
     display: flex;
+    justify-content: center;
   }
   
   .bot-nav{
     display: flex;
-  }
-  
+    justify-content: center;
+  } 
+}
+
+.item-space > *:not(:last-child){ 
+  margin-right: 10px;
 }
