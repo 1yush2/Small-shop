@@ -1,6 +1,6 @@
 // configiguring sass 
 $font-lan: Courier;
-$light-color: #FEF6F4;
+$light-color: #c5e3f6;
 $primary-color: #230B06;
 
 * {
@@ -32,4 +32,19 @@ body {
 
 .item-space > *:not(:last-child){ 
   margin-right: 10px;
+}
+
+.mid{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 13em;
+  
+  .cart{
+    margin-left: 35em;
+  }
+
+}
+
+.mid-border{
+  border: 2px $primary-color solid;
 }

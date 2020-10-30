@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #FEF6F4;
+  background-color: #c5e3f6;
   font-family: Courier;
   line-height: 1.6;
 }
@@ -41,5 +41,23 @@ body {
 
 .item-space > *:not(:last-child) {
   margin-right: 10px;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 13em;
+}
+
+.mid .cart {
+  margin-left: 35em;
+}
+
+.mid-border {
+  border: 2px #230B06 solid;
 }
 /*# sourceMappingURL=style.css.map */
